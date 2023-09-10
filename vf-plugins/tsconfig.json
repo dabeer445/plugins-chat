@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "lib": [
+      "es5", "es6", "dom", "dom.iterable"
+    ],
+    "skipLibCheck": true,
+    "jsx": "react-jsx"
+  }
+}

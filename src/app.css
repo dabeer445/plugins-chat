@@ -1,0 +1,13 @@
+:root{
+    --colors-primary: #20b5f5 !important;
+    --colors-darkPrimary: #426192 !important;
+    --colors-fadedPrimary: rgba(29, 219, 219, 0.83) !important;
+}
+.vfrc-message > button{
+    padding: 20px;
+    border: 0;
+    background: var(--colors-primary);
+    border-radius: 25px;
+    color: white;
+    font-family: 'circular';
+}

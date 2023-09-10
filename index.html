@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoiceFlow Plugins</title>
+  </head>
+  <body>
+    <script type="module" src="./vf-plugins/build/bundle.mjs"></script>
+    <script type="module" src="./src/main.tsx"></script>
+    <script>
+      window.voiceflow.chat.load({
+        verify: { projectID: "64f02f88d52233000786e5dc" },
+        url: "https://general-runtime.voiceflow.com",
+        versionID: "production",
+      });
+    </script>
+  </body>
+</html>
